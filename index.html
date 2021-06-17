@@ -1,0 +1,280 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sign Language Presentation</title>
+
+    <meta name="description" content="Simple Reveal.js slidedeck template. Source files loaded from jsDelivr.">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/simple.css" id="theme">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme">
+    <link rel="stylesheet" href="lib/css/monokai.css">
+    <!-- Printing and PDF exports -->
+    <script>
+        // Load print, pdf stylesheets from jsDelivr
+        var srcUrlPrefix = 'https://cdn.jsdelivr.net/reveal.js/3.0.0/';
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = srcUrlPrefix + (window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css');
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <div class="slides">
+
+            <section>
+                <h1>Sign Language</h1>
+                <p>Sign Language Recognition based
+                    on Hands Symbols Classification.</p>
+                <img src="/style/h.gif" alt="">
+
+            </section>
+
+            <section>
+                <h2>Content</h2>
+                <p>Introduction</p>
+                <p>Problem</p>
+                <p>Solution</p>
+                <p>Approach</p>
+                <p>Results</p>
+                <p>Improvment</p>
+            </section>
+            <section>
+
+                <section>
+                    <h2>Introduction 👋 </h2>
+                </section>
+                <section>
+                    <h2>What is Sign Language ?</h2>
+                    <p>
+                        <span style="color: white;">Sign Language</span> is a visual language where ,using the
+                        hands
+                        to make
+                        signs , and
+                        Face Movement
+                        instead of spoken words
+                    </p>
+                    <img src="/style/pngwing.com.png" style="max-width: 50%;" alt="">
+                </section>
+                <section>
+                    <h2>Why do we need Sign Language ? 🤔 </h2>
+                    <p>
+                        ➤ Sign languages are an extremely important communication tool for many deaf and hard-of-hearing
+                        people.
+                    </p>
+                    <br>
+                    <p>
+                        ➤ Over <strong>5%</strong> of the world's population – or 430 million people having Hearing
+                        Problem. It is estimated that by 2050 over 700 million people – or one in every ten people –
+                        will have
+                        disabling hearing loss.
+                    </p>
+                    <img src="/style/e.gif" style="max-width: 15%;" alt="">
+                </section>
+
+            </section>
+            <section>
+                <section>
+                    <h2>Problem 😓</h2>
+                </section>
+                <section>
+                    <h1>Not everyone knows Sign Language</h1>
+                    <h1>🤷‍♀️</h1>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h2>Solution
+                        👨‍💻 </h2>
+                </section>
+                <section>
+                    <h4>We are Programmers and We have Many Superpowers 🦸‍♂️</h4>
+                    <br>
+
+                    <h3 class="fragment fade-up" style="float: left;font-size:80px">Computer Vision</h3>
+                    <img class="fragment fade-in-then-out" style="width: 25%;" src="/style/cp.gif" alt="">
+
+                    <h3 class="fragment fade-up" style="float: right; ">Deep Learnig</h3>
+                    <img class="fragment fade-in-then-out" style="width: 25%;float:left" src="/style/deep.gif" alt="">
+
+                    <h3 class="fragment fade-up" style="margin: 5px;font-size:80px">Natural Language Processing</h3>
+                    <img class="fragment fade-in-then-out" style="width: 25%;float:right" src="/style/nltk.gif" alt="">
+
+
+                </section>
+                <section>
+                    <h2>With Help of Our SuperPowers we can solve this problem</h2>
+                    <p class="fragment fade-up">But How ?😕</p>
+
+
+                </section>
+                <section>
+                    <p>➤ We can collect lots of Image data of Sign Language Gestures. </p>
+                    <br>
+                    <p class="fragment fade-up">➤ and With Help of Computer Vision and Convolution Neural Network We can
+                        Train Model</p>
+                    <br>
+                    <p class="fragment fade-up">➤ And Make Prediction on New Sign Language Gestures</p>
+                </section>
+                <section>
+                    <h2>Like This</h2>
+                    <img src="/style/1623390326498.jpg" alt="">
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>Tools 🔧</h1>
+                </section>
+
+                <section>
+
+                    <h1>Tech Stack</h1>
+                    <div class="container">
+                        <h2 class="fragment fade-up" style="float: left;margin:30px">Python</h2>
+                        <br>
+                        <img class="fragment fade-in-then-out" style="width: 15%;float:left;" src="/style/python.png"
+                            alt="">
+                    </div>
+
+                    <h2 class="fragment fade-up">Tensorflow</h2>
+                    <img class="fragment fade-in-then-out" style="width: 15%;float:left;margin:30px"
+                        src="/style/tensorflow.png" alt="">
+
+                    <h2 class="fragment fade-up">Opencv</h2>
+                    <img class="fragment fade-in-then-out" style="width: 15%" src="/style/opencv.png" alt="">
+
+                </section>
+            </section>
+
+
+            <section>
+                <section>
+                    <h2>Approach</h2>
+                </section>
+                <section>
+                    <center>
+                        <h2>Dataset</h2>
+                        <p class="fragment fade-up">We have used <span style="color: white;"> ASL Alphabet
+                                Dataset</span>
+                        </p>
+                        <h1 class="fragment fade-up">81000 + Images 🎉</h1>
+                        <img src="/style/als.jpg" class="fragment fade-up" style="max-width: 50%;" alt="">
+                    </center>
+                </section>
+                <section>
+                    <h2>Architecture</h2>
+                    <img src="/style/conv.png" style="max-width: 110%;" alt="">
+                </section>
+                <section>
+                    <section>
+                        <h2>Code of Convolution Neural Network</h2>
+                        <pre style="height: fit-content;"><code data-trim data-noescape>
+    model=keras.Sequential([
+    keras.layers.Conv2D(filters=32,kernel_size=3,activation="relu",input_shape=(100,100,1)),
+    keras.layers.Conv2D(filters=64,kernel_size=3,activation="relu"),
+    
+    keras.layers.MaxPooling2D((4,4),padding='same'),
+    keras.layers.Dropout(0.2),
+    
+    keras.layers.Conv2D(filters=128,kernel_size=3,activation="relu"),
+    keras.layers.Conv2D(filters=128,kernel_size=3,activation="relu"),
+    keras.layers.MaxPooling2D((4,4),padding='same'),
+    keras.layers.Dropout(0.2),
+    
+    keras.layers.Conv2D(filters=256,kernel_size=3,activation="relu"),
+    keras.layers.MaxPooling2D((4,4),padding='same'),
+    keras.layers.Dropout(0.2),
+    
+    keras.layers.Flatten(),
+    keras.layers.Dense(128,activation="relu"),
+    keras.layers.Dense(64,activation="relu"),
+    keras.layers.Dense(30,activation="softmax")
+])
+                        
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <h2>Optimization</h2>
+                    <p>For Optimization We Have Used here Stochastic Gradient Descent</p>
+                    <img src="/style/gd1.gif" style="max-width: 50%;" alt="">
+                </section>
+            </section>
+
+            <section>
+                <h1>Results 🎉</h1>
+                <br>
+                <p>Accuracy of our Model is <span style="font-size:80px;color:White"> 98.89% </span> In Training Images
+                </p>
+                <p>Accuracy of Our Model in Testing Images <span style="font-size:80px;color:White"> 99% </span></p>
+            </section>
+            <section>
+                <h1>Improvment</h1>
+                <br>
+                <p class="fragment fade-up">We can Add Many Featues With Natural Language Processing</p>
+                <p class="fragment fade-up"><span style="color:White">Write All Word and Make Sentence</span></p>
+                <p class="fragment fade-up"><span style="color:White">Prediction of Next Word</span></p>
+                <p class="fragment fade-up"><span style="color:White">And Many More Things</span></p>
+            </section>
+
+            <section>
+                <h1>Thank You 🙇</h1>
+            </section>
+        </div><!-- .slides -->
+
+    </div><!-- .reveal -->
+
+    <script src=" https://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.min.js"></script>
+
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
+
+
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+            // Optional reveal.js plugins, loaded from jsDelivr
+            dependencies: [
+                { src: srcUrlPrefix + 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: srcUrlPrefix + 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: srcUrlPrefix + 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: srcUrlPrefix + 'plugin/highlight/highlight.js', async: true, condition: function () { return !!document.querySelector('pre code'); }, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: srcUrlPrefix + 'plugin/zoom-js/zoom.js', async: true },
+                { src: srcUrlPrefix + 'plugin/notes/notes.js', async: true }
+            ]
+
+        });
+
+    </script>
+
+</body>
+
+</html>
